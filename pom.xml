@@ -13,22 +13,40 @@
 	<version>1.0.0</version>
 	<name>ESCPOS</name>
 	<description>Library for ESC/POS printers</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+  	<url>https://github.com/DrBackmischung/ESCPOS-Java</url>
+
+  	<licenses>
+    	<license>
+      	<name>MIT License</name>
+      	<url>https://opensource.org/licenses/MIT</url>
+    	</license>
+  	</licenses>
+
+  	<scm>
+    	<url>https://github.com/DrBackmischung/ESCPOS-Java</url>
+    	<connection>scm:git:git://github.com/DrBackmischung/ESCPOS-Java.git</connection>
+    	<developerConnection>scm:git:ssh://git@github.com/DrBackmischung/ESCPOS-Java.git</developerConnection>
+  	</scm>
+
+  	<developers>
+    	<developer>
+      		<id>DrBackmischung</id>
+      		<name>DrBackmischung</name>
+      		<url>https://github.com/DrBackmischung</url>
+    	</developer>
+  	</developers>
+
+  	<distributionManagement>
+    	<repository>
+      		<id>github</id>
+      		<url>https://maven.pkg.github.com/DrBackmischung/ESCPOS-Java</url>
+    	</repository>
+  	</distributionManagement>
+  	
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,11 +64,13 @@
 	        <artifactId>junit-jupiter-api</artifactId>
 	        <scope>test</scope>
 	    </dependency>
+	    
 	    <dependency>
 	        <groupId>org.junit.jupiter</groupId>
 	        <artifactId>junit-jupiter-engine</artifactId>
 	        <scope>test</scope>
 	    </dependency>
+	    
 	    <dependency>
 	        <groupId>org.mockito</groupId>
 	        <artifactId>mockito-core</artifactId>
