@@ -20,9 +20,9 @@ Add this library to your **Maven project**:
 
 ```xml
 <dependency>
-    <groupId>de.mathisneunzig</groupId>
-    <artifactId>escpos</artifactId>
-    <version>0.0.1</version>
+  <groupId>de.mathisneunzig</groupId>
+  <artifactId>escpos</artifactId>
+  <version>1.0.0</version>
 </dependency>
 ```
 
