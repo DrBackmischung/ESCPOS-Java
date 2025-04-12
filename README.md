@@ -155,6 +155,16 @@ public class POSPrinterMockTest {
 
 ---
 
+## 📣 Feature Request?
+
+This repository is only for **bug reports and maintenance** related to the language-specific implementation.
+
+Please open all **feature requests, enhancements, and cross-language discussions** in the **central repository**:  
+
+👉 [DrBackmischung/ESCPOS](https://github.com/DrBackmischung/ESCPOS/issues)
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License**.
